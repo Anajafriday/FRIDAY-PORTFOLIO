@@ -63,7 +63,7 @@ const projects = [
   },
   {
     img_url: "/web-maintenance.jpg",
-    title: "Quick-Book Course Landing Page",
+    title: "jasontechnolgies Landing Page",
     webUrl: "https://www.jasontechacademy.com/Course/Quickbooks/index.html",
     id: "pro_1",
     subTitle:
@@ -139,7 +139,7 @@ const projects = [
   {
     img_url: "/hero-bg-yellow.jpg",
     title: "Food-Plus Landing Page Website",
-    webUrl:'https://foodplus.surge.sh/',
+    webUrl: "https://foodplus.surge.sh/",
     id: "pro_7",
     subTitle:
       "Appetizing landing page enticing users to explore the features of the Food-Plus web ordering platform.",

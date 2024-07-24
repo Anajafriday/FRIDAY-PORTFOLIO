@@ -222,13 +222,14 @@ function HomePage() {
             <div className="relative h-full">
               <iframe
                 title="curiosophyblog website"
-                src="https://curiousophy.surge.sh/"
+                // src="https://curiousophy.surge.sh/"
+                src="https://the-wild-oasis-by-friday.vercel.app/"
                 alt="blog website "
                 className="w-full h-[28rem] object-center"
               />
               <Buttoncta
                 className="absolute top-0"
-                link="https://curiousophy.surge.sh"
+                link="https://the-wild-oasis-by-friday.vercel.app/"
               >
                 visit website
               </Buttoncta>
@@ -261,10 +262,15 @@ function HomePage() {
               <iframe
                 title="jasontech website"
                 alt="web-text-ilustration"
-                src="https://jasontechacademy.com/"
+                src="https://travaye-by-friday.vercel.app/"
                 className="w-full  h-[25rem] object-center"
               />
-              <Buttoncta className="absolute top-0">visit website</Buttoncta>
+              <Buttoncta
+                className="absolute top-0"
+                link="https://travaye-by-friday.vercel.app/"
+              >
+                visit website
+              </Buttoncta>
             </div>
           </div>
         </div>
