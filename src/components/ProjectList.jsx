@@ -25,7 +25,7 @@ function ProjectList({ project }) {
       <div className="my-4 flex-row-reverse justify-center md:justify-normal md:flex-row flex gap-4 ">
         <Buttoncta
           link={project.webUrl}
-          className=" xl:bg-colorCta px-3 py-1 self-center md:self-auto md:py-2 xl:text-current text-white"
+          className=" xl:bg-colorCta px-3 py-1 self-center md:self-auto md:py-2 xl:text-current"
         >
           visit website
         </Buttoncta>
