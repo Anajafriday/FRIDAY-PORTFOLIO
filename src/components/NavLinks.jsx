@@ -2,10 +2,10 @@ import { useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 const navs = [
   { page: "home", url: "/" },
-  { page: "about" },
-  { page: "service" },
-  { page: "portfolio" },
-  { page: "contact" },
+  // { page: "about" },
+  // { page: "service" },
+  { page: "project" },
+  // { page: "contact" },
 ];
 function NavLinks({ className, handler }) {
   const ref = useRef();

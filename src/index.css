@@ -15,7 +15,7 @@ body {
     "Montserrat Alternates", sans-serif, "Roboto", sans-serif; */
 }
 .active {
-  background-color: #eee82c;
+  color: #eee82c;
   padding: 0.2em 0.5em;
   border-radius: 2rem;
 }

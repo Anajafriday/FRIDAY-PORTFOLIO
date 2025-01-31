@@ -1,6 +1,6 @@
 function SectionLayout({
   children,
-  className = "bg-white",
+  className = "bg-colorPrimary",
   classNameChild = " w-9/12",
 }) {
   return (
