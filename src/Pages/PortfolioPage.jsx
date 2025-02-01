@@ -31,7 +31,7 @@ const projects = [
     ],
     type: "full-stack"
     ,
-    webURL: "http://foodplus.surge.sh/",
+    webUrl: "http://foodplus.surge.sh/",
     futureEnhancement:
       "Ongoing development includes implementing additional features for user personalization, refining the user interface, and exploring options for seamless payment integration.",
     relatedProjects: [{ name: "Food-Plus Landing Page Website", id: "pro_7" }],

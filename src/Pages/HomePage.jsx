@@ -3,6 +3,7 @@ import { SiJavascript, SiTypescript, SiTailwindcss, SiExpress, SiMongodb, SiSupa
 import Buttoncta from "../components/Buttoncta";
 import Footer from "../components/Footer";
 import SectionLayout from "../components/SectionLayout";
+import ContactForm from "../components/ContactForm";
 
 
 function HomePage() {
@@ -58,7 +59,10 @@ function HomePage() {
                 <SiFigma className="text-orange-600" title="Figma" />
               </div>
 
-              <Buttoncta className="lg:py-4 md:hidden">Learn more</Buttoncta>
+              <button className="py-2 px-4  mt-4 xl:hidden bg-colorCta text-black"
+                onClick={() => {
+                  document.getElementById("contact").scrollIntoView({ behavior: "smooth" })
+                }}>Contact</button>
             </div>
           </div>
 
@@ -71,7 +75,10 @@ function HomePage() {
           </div>
 
           <div className="smPadding col-span-2 md:col-auto mx-auto my-4 md:mt-12 -order-1 md:order-1">
-            {/* <Buttoncta className="lg:py-4 md:block hidden">Learn more</Buttoncta> */}
+            <button className="lg:py-2 px-4 xl:block hidden bg-colorCta text-black"
+              onClick={() => {
+                document.getElementById("contact").scrollIntoView({ behavior: "smooth" })
+              }}>Contact</button>
           </div>
         </div>
       </SectionLayout>
@@ -160,9 +167,11 @@ function HomePage() {
             </div>
           </div>
         </div>
+
+        <Buttoncta link="/project" className="md:text-xl max-w-sm  mx-auto my-4  justify-center flex items-center gap-4" target="">View All</Buttoncta>
       </SectionLayout>
 
-      <SectionLayout className=" bg-colorPrimary">
+      <SectionLayout className=" bg-colorPrimary" >
         <div className="container mx-auto ">
           <h3 className="md:text-3xl text-xl font-bold  text-center">
             Skills
@@ -199,7 +208,6 @@ function HomePage() {
           </div>
         </div>
       </SectionLayout>
-
       <SectionLayout className="bg-gray-900">
         <div className="flex justify-center flex-col items-center w-full md:w-1/2 mx-auto">
           <h3 className="text-lg md:text-2xl w-full font-bold text-center my-8">
@@ -209,7 +217,10 @@ function HomePage() {
           <Buttoncta className="md:text-xl flex items-center gap-4" link="https://www.linkedin.com/in/friday-anaja-9ba729262"><FaLinkedin /> Let's Connect</Buttoncta>
         </div>
       </SectionLayout>
+      <SectionLayout id="contact">
 
+        <ContactForm />
+      </SectionLayout>
       <Footer />
     </div>
   );
